@@ -157,12 +157,12 @@ section {
 }
 
 .box-container div img {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    object-fit: cover; 
-    margin-bottom: 1rem; 
-    border: 2px solid var(--main--color); 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2px solid var(--main--color);
 }
 
 .menu .box-container {
@@ -171,14 +171,14 @@ section {
     gap: 2rem;
 }
 
-.menu .box-container >div {
+.menu .box-container>div {
     text-align: center;
     border: var(--border);
     padding: 5rem;
     cursor: pointer;
 }
 
-.menu .box-container >div:hover {
+.menu .box-container>div:hover {
     background-color: #d08a95;
 }
 
@@ -198,3 +198,64 @@ section {
     font-weight: 200;
 }
 
+.avaliacoes .box-container {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.stars img {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.box img[alt="Aspas"] {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    width: 30px;
+    height: auto;
+}
+
+.avaliacoes .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.avaliacoes .box-container .box p {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    line-height: 1.8;
+}
+
+.endereco {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .share {
+    padding: 1rem 0;
+}
+
+.footer .share img {
+    margin: 0.3rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.footer .share img:hover {
+    background-color: #ffb6c1;
+    border-radius: 50%;
+}
