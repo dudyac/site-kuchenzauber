@@ -1,7 +1,7 @@
-﻿# site kuchenzauber 🧁✨ 
+﻿# Site Kuchenzauber 🧁✨ 
  
 ## 📖 Sobre o projeto  
-Kuchenzauber é um site para uma confeitaria fictícia, oferecendo informações sobre produtos, avaliações de clientes e localização
+Kuchenzauber é um site para uma confeitaria fictícia, oferecendo informações sobre produtos, avaliações de clientes e localização. 
 
 ## 🚀 Funcionalidades  
 - Página inicial com navegação intuitiva.  
